@@ -1,0 +1,148 @@
+/* Paleta de Colores Institucional */
+:root {
+  --color-institucional: #003057;
+  --color-acento: #007bff;
+  --color-fondo-oscuro: #0a1929;
+  --color-texto-claro: #f0f4f8;
+}
+
+.televisor-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: var(--color-fondo-oscuro);
+  color: var(--color-texto-claro);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* --- MITAD IZQUIERDA --- */
+.left-panel {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  background-color: #000;
+}
+
+.background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.current-call-overlay {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  background-color: rgba(0, 48, 87, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 25px;
+  text-align: center;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.current-call-overlay.highlight {
+  /* --- CAMBIO: Duración devuelta a 2 segundos --- */
+  animation: gentleHeartBeat 2s infinite ease-in-out;
+}
+
+@keyframes gentleHeartBeat {
+  0% { transform: scale(1); }
+  25% { transform: scale(1.03); }
+  40% { transform: scale(1); }
+  55% { transform: scale(1.03); }
+  100% { transform: scale(1); }
+}
+
+.ticket-actual {
+  font-size: 8vw;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+}
+
+.nombre-actual {
+  font-size: 3vw;
+  font-weight: 500;
+  margin-top: 10px;
+  text-transform: uppercase;
+  color: var(--color-texto-claro);
+}
+
+.modulo-actual {
+  font-size: 2.5vw;
+  margin-top: 15px;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 8px 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.esperando-llamado {
+  font-size: 4vw;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 40px;
+}
+
+/* --- MITAD DERECHA --- */
+.right-panel {
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-fondo-oscuro);
+}
+
+.history-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.history-card {
+  display: flex;
+  align-items: center;
+  background-color: #1b263b;
+  border-radius: 10px;
+  padding: 20px;
+  border-left: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.card-ticket {
+  font-size: 3vw;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding-right: 25px;
+  border-right: 2px solid #415a77;
+}
+
+.card-main-info {
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-nombre {
+  font-size: 2vw;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.card-modulo {
+  font-size: 1.8vw;
+  font-weight: normal; 
+  color: #c0c8d4;
+  margin-top: 5px;
+}
+
+.history-card.highlight {
+  background-color: rgba(0, 48, 87, 0.7);
+  border-left: 5px solid var(--color-acento);
+}

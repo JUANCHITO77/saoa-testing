@@ -1,0 +1,28 @@
+.app-header {
+  display: none; /* Oculto por defecto en escritorio */
+  background-color: #003057; /* Color institucional */
+  color: white;
+  padding: 15px;
+  align-items: center;
+}
+
+.menu-toggle-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.header-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+/* Media Query para mostrar el header solo en móviles */
+@media (max-width: 768px) {
+  .app-header {
+    display: flex;
+  }
+}

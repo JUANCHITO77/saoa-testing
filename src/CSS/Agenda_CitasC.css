@@ -1,0 +1,91 @@
+/* Configuración global */
+
+/*body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f8;
+    margin: 0 auto;
+    display: flex;
+    height: 100vh;
+}*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+
+/* Lado izquierdo (Datos del cliente) */
+
+.left-form,
+.middle-form,
+.right-form {
+    background: #ffffff;
+    min-width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin:0 10px;
+   /*width: 100%;*/
+}
+
+h1 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+/* Formularios */
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+}
+
+
+/* Botón */
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Estilo de la página */
+
+input[type="date"],
+input[type="time"] {
+    background-color: #ffffff;
+}

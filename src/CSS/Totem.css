@@ -1,0 +1,99 @@
+.totem-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.left-side {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    text-align: center;
+}
+
+.left-side h1 {
+    font-size: 28px;
+    color: #007BFF;
+}
+
+.left-side p {
+    font-size: 18px;
+    color: #555;
+}
+
+.right-side {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    text-align: center;
+}
+
+.right-side h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.button-group {
+    margin-bottom: 20px;
+}
+
+.number-button {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.number-button:hover {
+    background-color: #218838;
+}
+
+.validate-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.validate-button:hover {
+    background-color: #218838;
+}

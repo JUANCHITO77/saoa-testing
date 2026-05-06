@@ -1,0 +1,93 @@
+/*body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(../Fondos/fondito.png);
+    background-size: cover;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}*/
+
+
+.login-container {
+    background: #ffffff;
+    justify-content: flex-end;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.input-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.input-wrapper .material-icons {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #007BFF;
+}
+
+input {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.form-links {
+    margin-top: 10px;
+}
+
+.form-links a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.form-links a:hover {
+    text-decoration: underline;
+}

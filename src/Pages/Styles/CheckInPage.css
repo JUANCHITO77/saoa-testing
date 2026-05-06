@@ -1,0 +1,186 @@
+.checkin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+  background-image: url('../../Fondos/fondito.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.checkin-box {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 90%;
+  max-width: 650px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* --- Estilos del campo de texto --- */
+.document-display {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  background-color: #ffffff;
+  min-height: 60px;
+  letter-spacing: 6px;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.06);
+}
+
+.error-message {
+  color: #D32F2F;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* --- Estilos de la pantalla de confirmación --- */
+.confirmation-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+}
+
+.confirmation-container .confirm-button {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(145deg, #007bff, #0056b3);
+  border: none;
+  border-radius: 15px;
+  padding: 25px;
+  cursor: pointer;
+  box-shadow: 0 6px #004085;
+  transition: all 0.1s ease-out;
+  margin-bottom: 0;
+}
+
+.confirmation-container .confirm-button:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px #004085;
+}
+
+.confirmation-container .cancel-button {
+  font-size: 1rem;
+  color: #6c757d;
+  background: transparent;
+  border: none;
+  margin-top: 30px;
+  padding: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* --- Estilos generales (se mantienen para otros botones) --- */
+.confirm-button {
+  width: 100%;
+  padding: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 15px;
+}
+
+.confirm-button:hover {
+  background-color: #0056b3;
+}
+
+.cancel-button {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.2rem;
+  color: #555;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+/* --- NUEVO: Estilos mejorados para la selección de servicio --- */
+.service-selection-container h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+.service-selection-container p {
+  font-size: 1.2rem;
+  color: #4a4a4a;
+  margin-bottom: 25px;
+}
+.service-buttons {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.service-button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(145deg, #28a745, #218838); /* Degradado verde */
+  border: none;
+  border-radius: 15px;
+  padding: 25px;
+  cursor: pointer;
+  box-shadow: 0 6px #1e7e34; /* Sombra para efecto push */
+  transition: all 0.1s ease-out;
+}
+.service-button:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px #1e7e34;
+}
+
+
+/* --- Estilos de la pantalla de nombre preferido --- */
+.name-input-container h2 {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.name-input-container p {
+  font-size: 1.2rem;
+  color: #4a4a4a;
+  font-weight: 500;
+}
+
+.name-display {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* --- Estilos de la pantalla final --- */
+.final-message h2 {
+  font-size: 2rem;
+  color: #28a745;
+}
+
+.final-message p {
+  font-size: 1.5rem;
+  color: #4a4a4a;
+  font-weight: 500;
+}
+
+.ticket-display {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #333;
+  margin: 20px 0;
+  padding: 20px;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+}

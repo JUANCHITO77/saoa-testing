@@ -1,0 +1,78 @@
+.tv-container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    color: white;
+}
+
+.tv-container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #FFD700;
+}
+
+.tv-container h2 {
+    font-size: 24px;
+    color: #FFD700;
+    margin-top: 20px;
+}
+
+
+/* Parte izquierda: Turnos */
+
+.left-side {
+    width: 40%; /* Este ya está bien porque es una clase específica */
+    padding: 20px;
+    background-color: #333;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.tv-container ul {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+ul li {
+    margin-bottom: 15px;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/* Parte derecha: Descripción y video */
+
+.right-side {
+    width: 55%;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #ddd;
+    margin-bottom: 15px;
+}
+
+.video-container {
+    margin-top: 20px;
+    background-color: #222;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+/* Estilo de los enlaces */
+
+a {
+    text-decoration: none;
+    color: #FFD700;
+}
+
+a:hover {
+    text-decoration: underline;
+}

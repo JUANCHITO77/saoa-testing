@@ -1,0 +1,116 @@
+.ingreso-form-container {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: 20px;
+}
+
+.ingreso-title {
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #495057;
+  font-weight: 500;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.input-group:focus-within {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.input-group-icon {
+  padding: 0 0.75rem; /* Se ajusta el padding para que sea solo horizontal */
+  color: #6c757d;
+  background-color: transparent; /* Se quita el fondo del ícono */
+  border-right: none; /* Se quita el borde derecho del ícono */
+  display: flex;
+  align-items: center;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  font-size: 1rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  outline: 0;
+  box-shadow: none; /* La sombra ahora está en el .input-group */
+}
+
+.form-control::placeholder {
+  color: #adb5bd;
+}
+
+.btn-ingreso {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-ingreso:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: #dc3545;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.875rem;
+}
+
+/* Estilos para el enlace de "Olvidé mi contraseña" */
+.form-links {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.form-links a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: text-decoration 0.3s;
+}
+
+.form-links a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos responsivos */
+@media (max-width: 480px) {
+  .ingreso-form-container {
+    padding: 1.5rem;
+  }
+} 

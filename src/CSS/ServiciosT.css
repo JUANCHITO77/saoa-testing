@@ -1,0 +1,44 @@
+ul li a {
+    background-color: #28a745;
+    color: white;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+ul li a:hover {
+    background-color: #218838;
+}
+
+
+/* Contenedor principal */
+
+.services-container {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* Estilo del encabezado */
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+/* Pie de página */
+
+.footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}

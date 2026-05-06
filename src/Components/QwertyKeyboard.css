@@ -1,0 +1,60 @@
+.qwerty-keyboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 620px;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.key-button {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #0056b3;
+  padding: 12px 15px;
+  margin: 0 4px;
+  border-radius: 8px;
+  border: 1px solid #bde0ff;
+  background-color: #f0f8ff;
+  cursor: pointer;
+  flex-grow: 1;
+  text-align: center;
+  transition: all 0.1s ease-out;
+  box-shadow: 0 4px #9acffa; /* --- SOMBRA MÁS GRANDE --- */
+}
+
+.key-button:hover {
+  background-color: #d4eaff; /* --- NUEVO: Color de hover --- */
+}
+
+.key-button:active {
+  transform: translateY(3px); /* --- Push más pronunciado --- */
+  box-shadow: 0 1px #9acffa;
+}
+
+.space-key {
+  flex-grow: 5;
+}
+
+.special-key {
+  flex-grow: 1.5;
+  font-size: 1rem;
+  background-color: #e3f2fd;
+}
+
+.accept-key {
+  background-color: #007bff;
+  color: white;
+  box-shadow: 0 4px #0056b3; /* --- SOMBRA MÁS GRANDE --- */
+}
+
+.accept-key:active {
+  box-shadow: 0 1px #0056b3;
+}
