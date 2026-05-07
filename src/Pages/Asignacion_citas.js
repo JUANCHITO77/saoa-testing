@@ -65,6 +65,12 @@ const AsignacionCitas = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (!formData.Servicio || !formData.Fecha_Cita || !formData.Id_Cliente || !formData.Nombre_Cliente) {
+      showNotif('error', 'Complete todos los campos requeridos (*)');
+      return;
+    }
+
     const stored = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
 
     if (editingCita) {
